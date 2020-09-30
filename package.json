@@ -1,0 +1,22 @@
+{
+  "name": "spark-ar-cz-fit-2020",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "rollup -cw",
+    "build": "NODE_ENV='production' rollup -c"
+  },
+  "author": "Tom Klaversma",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": "https://github.com/GreenhouseGroupBV/ar-studio_upi-overlord.git",
+  "dependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "babel": "^6.23.0",
+    "babel-preset-minify": "^0.5.1",
+    "rollup": "^2.26.8"
+  }
+}
